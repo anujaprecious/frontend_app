@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +67,44 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
+
+Installation:
+ git clone https://github.com/your-username/user-list-app.git
+
+Navigate to the project directory:
+  cd user-list-app
+
+Install the dependencies:
+   npm install
+
+To run the application, use the following command:
+   npm start
+
+Features:
+User List
+The UserList component fetches user data from the JSONPlaceholder API and displays a list of users.
+Each user is rendered as a card, showing their name, email, and phone number.
+The UI includes a loading indicator while the data is being fetched.
+Error handling is implemented to display an error message if the API call fails.
+User Deletion
+Each user card includes a "Delete" button.
+Clicking the "Delete" button triggers a delete action using Redux.
+The user is immediately removed from the UI without requiring a full refresh of the user list.
+The Redux store is updated to reflect the deleted user.
+
+
+Tests:
+ To run the tests, use the following command:
+   npm test
+
+
+ Technologies Used
+   React
+   Redux
+   Axios
+   Material-UI
+   Jest
+React Testing Library
+
+
