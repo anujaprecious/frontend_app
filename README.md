@@ -70,7 +70,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
 
 Installation:
- git clone https://github.com/your-username/user-list-app.git
+ git clone https://github.com/anujaprecious/frontend_app.git
 
 Navigate to the project directory:
   cd user-list-app
