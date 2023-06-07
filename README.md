@@ -72,8 +72,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 Installation:
  git clone https://github.com/anujaprecious/frontend_app.git
 
-Navigate to the project directory:
-  cd user-list-app
+
 
 Install the dependencies:
    npm install
